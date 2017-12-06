@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{784D3B86-E0EF-4F85-8902-29D4558691D5}</ProjectGuid>
+    <ProjectGuid>{A99D00AC-F4C4-41AD-B382-97CD66BF4A46}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Section2_Exercise1_StopWatch</RootNamespace>
-    <AssemblyName>Section2_Exercise1_StopWatch</AssemblyName>
+    <RootNamespace>Casting</RootNamespace>
+    <AssemblyName>Casting</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,6 +44,8 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shape.cs" />
+    <Compile Include="Text.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
